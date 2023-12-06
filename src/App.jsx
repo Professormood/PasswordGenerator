@@ -20,7 +20,6 @@ function App() {
       const char = Math.floor(Math.random() * str.length + 1);
 
       pass += str.charAt(char);
-      console.log(pass)
     }
     setpassword(pass);
   }, [length, numberAllowed, charAllowed,setpassword]);
